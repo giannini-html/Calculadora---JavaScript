@@ -1,0 +1,104 @@
+body{   
+    font-family:  'Open Sans', 'Helvetica Neue', sans-serif;
+    background-image: url(../images/pexels-karol-d-325153.jpg);
+}
+#container{
+    height: 90%;
+    width: 30vw;
+    background-image: linear-gradient(rgba(0,0,0,0,3),rgba(0,0,0.3)), url(bgImg.jpg);
+    margin: 20px auto;
+}
+
+#calculator{
+    height: 90vh;
+    width: 90%;
+    background-color: #234d5a;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#result{
+    height: 120px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+#history {
+    text-align: right;
+    height: 20px;
+    padding-top: 20px;
+    font-size: #7a7a7a;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    float: left;
+    border-radius: 50px;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.number, .empty{
+    background-color: #a1a1a1;
+}
+
+.operator:hover, .number:hover {
+    background-color: rgb(92, 92, 92);
+}
+
+
+.number, .operator{
+    cursor: pointer;
+}
+
+.operator:active, .number:active{
+    font-size: 13px
+}
+
+.operator:focus, .number:focus, :empty:focus{
+    outline: 0;
+}
+
+.empty{
+    background-color: #234d5a;
+}
+
+button:nth-child(4){
+    font-size: 20px;
+    background-color: #e7c011;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color: #e7c011;
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: #e7c011;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: #e7c011;
+}
+button:nth-child(20){
+    font-size: 20px;
+    background-color: #e7c011;
+}
